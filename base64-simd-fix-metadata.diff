@@ -1,0 +1,19 @@
+--- base64-simd-0.8.0/Cargo.toml	1970-01-01T00:00:01+00:00
++++ base64-simd-0.8.0/Cargo.toml	2025-11-27T22:45:28.459974+00:00
+@@ -39,13 +39,13 @@
+ version = "0.5.0"
+ 
+ [dependencies.vsimd]
+-version = "0.8.0"
++version = ">=0.8,<0.10"
+ 
+ [dev-dependencies.base64]
+-version = "0.20.0"
++version = ">=0.20,<0.25"
+ 
+ [dev-dependencies.const-str]
+-version = "0.5.3"
++version = ">=0.5,<0.8"
+ 
+ [dev-dependencies.rand]
+ version = "0.8.5"

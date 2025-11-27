@@ -1,0 +1,7 @@
+[package]
+cargo-toml-patch-comments = [
+    "relax vsimd dependency from 0.1 to >=0.1,<0.3",
+    "relax base64 dependency from 0.1 to >=0.1,<0.3",
+    "relax vsimd dependency from 0.1 to >=0.1,<0.3",
+    "relax const-str dependency from 0.1 to >=0.1,<0.3",
+]

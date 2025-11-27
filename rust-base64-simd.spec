@@ -14,6 +14,12 @@ URL:            https://crates.io/crates/base64-simd
 Source:         %{crates_source}
 # Automatically generated patch to strip dependencies and normalize metadata
 Patch:          base64-simd-fix-metadata-auto.diff
+# Manually created patch for downstream crate metadata changes
+# * relax vsimd dependency from 0.1 to >=0.1,<0.3
+# * relax base64 dependency from 0.1 to >=0.1,<0.3
+# * relax vsimd dependency from 0.1 to >=0.1,<0.3
+# * relax const-str dependency from 0.1 to >=0.1,<0.3
+Patch:          base64-simd-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 
